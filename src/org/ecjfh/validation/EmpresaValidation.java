@@ -71,7 +71,6 @@ public class EmpresaValidation {
 	}
 	
 	public static List<EmpresaManagedBean> transformModelBOListFiliais(Set<Filial> filiais) throws Exception {
-		// TODO Auto-generated method stub
 		List<EmpresaManagedBean> empresasBO = new ArrayList<EmpresaManagedBean>();
 		
 		for(Filial filial:filiais){
